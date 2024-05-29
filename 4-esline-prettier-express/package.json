@@ -1,0 +1,27 @@
+{
+  "name": "1-eslint-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "prettier": "prettier . --write"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.3.0",
+    "eslint": "9.x",
+    "globals": "^15.3.0",
+    "prettier": "3.2.5",
+    "typescript-eslint": "^7.11.0"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.29.1",
+    "express": "^4.19.2",
+    "typescript": "^5.4.5"
+  }
+}
